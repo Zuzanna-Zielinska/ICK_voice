@@ -1,6 +1,7 @@
 #!pip3 install vosk
 #!pip install pyaudio
 #https://alphacephei.com/vosk/models - modele
+#https://drive.google.com/drive/u/1/folders/1PrRAXjdrNtalk6n-y42_t1iZUexcPRwB - link do modeli na dysku po polsku i angielsku
 
 from vosk import Model, KaldiRecognizer
 import pyaudio
