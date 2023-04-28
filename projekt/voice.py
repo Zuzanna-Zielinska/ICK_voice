@@ -15,7 +15,7 @@ info = { "id": 1, "scoreboard": 0, "ballVelocity": 1}       # słownik do wysła
 reset_scoreboard = False   # zmienna do resetu wyniku
 velocity = 1              # prędkość piłki
 v_lower_limit = 0        # dolny limit prędkości
-v_upper_limit = 100     # górny limit prędkości
+v_upper_limit = 10     # górny limit prędkości
     
 model = Model(r"vosk-model-small-pl-0.22")
 recognizer = KaldiRecognizer(model, 16000)
@@ -59,6 +59,8 @@ while True:
             print("szybciej")
             if velocity < v_upper_limit: #blokada przekroczenia górnego limitu
                 velocity += 1
+            else:
+                print("NIE MOŻESZ JUŻ PRZYSPIESZYĆ!")
 
             send_info(reset_scoreboard, velocity)
 
@@ -66,6 +68,8 @@ while True:
             print("wolniej")
             if velocity > v_lower_limit: #blokada przekroczenia dolnego limitu
                 velocity -= 1
+            else:
+                print("NIE MOŻESZ JUŻ ZWOLNIĆ!")
 
             send_info(reset_scoreboard, velocity)
 
@@ -142,5 +146,4 @@ while True:
 
 
 # jeśli response = 201, to znaczy, że wszystko się poprawnie wysłało
-
 
