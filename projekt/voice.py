@@ -75,63 +75,63 @@ while True:
 
             send_info(reset_scoreboard, velocity)
 
+        elif text[14:-3] == ("jeden"):
+            print("jeden")
+            velocity = 1
+
+            send_info(reset_scoreboard, velocity)
+
+        elif text[14:-3] == ("dwa"):
+            print("dwa")
+            velocity = 2
+
+            send_info(reset_scoreboard, velocity)
+
+        elif text[14:-3] == ("trzy"):
+            print("trzy")
+            velocity = 3
+
+            send_info(reset_scoreboard, velocity)
+
+        elif text[14:-3] == ("cztery"):
+            print("cztery")
+            velocity = 4
+
+            send_info(reset_scoreboard, velocity)
+
         elif text[14:-3] == ("pięć"):
             print("pięć")
             velocity = 5
 
             send_info(reset_scoreboard, velocity)
 
+        elif text[14:-3] == ("sześć"):
+            print("sześć")
+            velocity = 6
+
+            send_info(reset_scoreboard, velocity)
+
+        elif text[14:-3] == ("siedem"):
+            print("siedem")
+            velocity = 7
+
+            send_info(reset_scoreboard, velocity)
+
+        elif text[14:-3] == ("osiem"):
+            print("osiem")
+            velocity = 8
+
+            send_info(reset_scoreboard, velocity)
+
+        elif text[14:-3] == ("dziewięć"):
+            print("dziewięć")
+            velocity = 9
+
+            send_info(reset_scoreboard, velocity)
+
         elif text[14:-3] == ("dziesięć"):
             print("dziesięć")
             velocity = 10
-
-            send_info(reset_scoreboard, velocity)
-
-        elif text[14:-3] == ("piętnaście"):
-            print("piętnaście")
-            velocity = 15
-
-            send_info(reset_scoreboard, velocity)
-
-        elif text[14:-3] == ("dwadzieścia"):
-            print("dwadzieścia")
-            velocity = 20
-
-            send_info(reset_scoreboard, velocity)
-
-        elif text[14:-3] == ("dwadzieścia pięć"):
-            print("dwadzieścia pięć")
-            velocity = 25
-
-            send_info(reset_scoreboard, velocity)
-
-        elif text[14:-3] == ("trzydzieści"):
-            print("trzydzieści")
-            velocity = 30
-
-            send_info(reset_scoreboard, velocity)
-
-        elif text[14:-3] == ("trzydzieści pięć"):
-            print("trzydzieści pięć")
-            velocity = 35
-
-            send_info(reset_scoreboard, velocity)
-
-        elif text[14:-3] == ("czterdzieści"):
-            print("czterdzieści")
-            velocity = 40
-
-            send_info(reset_scoreboard, velocity)
-
-        elif text[14:-3] == ("czterdzieści pięć"):
-            print("czterdzieści pięć")
-            velocity = 45
-
-            send_info(reset_scoreboard, velocity)
-
-        elif text[14:-3] == ("pięćdziesiąt"):
-            print("pięćdziesiąt")
-            velocity = 50
 
             send_info(reset_scoreboard, velocity)
 
